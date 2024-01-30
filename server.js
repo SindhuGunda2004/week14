@@ -132,5 +132,6 @@ app.delete('/collection/:collectionName/:id', (req, res, next) => {
     );
 });
 
+// for AWS
 const port = process.env.PORT || 3000
 app.listen(port)
